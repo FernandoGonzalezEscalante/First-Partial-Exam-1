@@ -78,10 +78,13 @@ justify-content:space-around;
 
 .content
 {
+margin:auto;
 
 }
 
 .main
 {
+display: flex;
+flex-direction:row;
 
 }
