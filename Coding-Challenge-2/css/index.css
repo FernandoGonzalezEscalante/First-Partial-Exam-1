@@ -36,21 +36,29 @@ display:none;
 {
 .navigation
 {display:flex;
-flex-direction:column-reverse;
+flex-flow:row;
 }
 
 .heading-box
 {
-
+display:none;
 }
 
 .content
 {
 
+display:flex;
+justify-content:flex-end;
+
+flex-flow:column;
+
 }
 
 .main
 {
+display:flex;
+
+flex-flow:column;
 
 }
 
@@ -63,6 +71,8 @@ flex-direction:column-reverse;
 
 .heading-box
 {
+display: flex;
+justify-content:space-around;
 
 }
 
